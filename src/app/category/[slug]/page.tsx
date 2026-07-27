@@ -81,7 +81,7 @@ export default async function CategoryPage({ params }: Props) {
           <form
             name="lead"
             method="POST"
-            action="/api/lead"
+            action="/__forms.html"
             data-netlify="true"
             netlify-honeypot="bot-field"
             className="bg-white rounded-2xl p-7 space-y-4"
