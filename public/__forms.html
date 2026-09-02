@@ -3,13 +3,45 @@
 <head><meta charset="utf-8"><title>Netlify Forms Decoy</title></head>
 <body>
   <!-- Build-time-crawlable decoy so @netlify/plugin-nextjs registers the component-rendered "lead" form. Do not delete. -->
-  <form name="lead" netlify netlify-honeypot="bot-field" hidden>
-    <input type="hidden" name="form-name" value="lead" />
-    <input type="text" name="bot-field" />
-    <input type="text" name="name" />
-    <input type="email" name="email" />
-    <textarea name="business_type"></textarea>
-    <input type="text" name="category" />
-  </form>
+  <form name="lead" data-netlify="true" netlify-honeypot="bot-field" hidden>
+  <input type="hidden" name="form-name" value="lead" />
+  <input name="bot-field" />
+  <input name="name" />
+  <input name="email" />
+  <input name="business_type" />
+  <input name="street_address" />
+  <input name="city" />
+  <input name="state" />
+  <input name="zip" />
+  <input name="prior_year_gross_sales" />
+  <input name="prior_year_subcontractor_expenses" />
+  <input name="prior_year_employee_count" />
+  <input name="prior_year_employee_payroll" />
+  <input name="estimated_gross_sales" />
+  <input name="estimated_subcontractor_expenses" />
+  <input name="estimated_employee_count" />
+  <input name="estimated_employee_payroll" />
+  <input name="estimated_material_costs" />
+  <input name="subcontractors_have_insurance" />
+  <input name="percent_subcontractors_insured" />
+  <input name="coverage_for_uninsured_subcontractors" />
+  <input name="coverage_types" />
+  <input name="annual_gross_sales" />
+  <input name="year_business_started" />
+  <input name="business_description" />
+  <input name="class_code_1" />
+  <input name="class_code_2" />
+  <input name="class_code_3" />
+  <input name="class_code_4" />
+  <input name="class_code_5" />
+  <input name="residential_vs_commercial" />
+  <input name="new_vs_existing_construction" />
+  <input name="largest_projects" />
+  <input name="prior_carrier_name" />
+  <input name="prior_policy_number" />
+  <input name="prior_policy_expiration" />
+  <input name="phone" />
+  <input name="category" />
+</form>
 </body>
 </html>

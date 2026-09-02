@@ -126,7 +126,142 @@ export default function HomePage() {
               Find my coverage
             </button>
             <p className="text-center text-xs text-slate-400">No spam. We&rsquo;ll only contact you about your insurance needs.</p>
-          </form>
+          
+        {/* complete contractor field set — forms-required-fields.json */}
+        <div className="mb-4">
+          <label className="block text-sm font-bold mb-1">Street address</label>
+          <input type="text" name="street_address" className="w-full px-4 py-2.5 border border-slate-200 rounded-lg text-sm focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100" />
+        </div>
+        <div className="mb-4">
+          <label className="block text-sm font-bold mb-1">City</label>
+          <input type="text" name="city" className="w-full px-4 py-2.5 border border-slate-200 rounded-lg text-sm focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100" />
+        </div>
+        <div className="mb-4">
+          <label className="block text-sm font-bold mb-1">State</label>
+          <input type="text" name="state" className="w-full px-4 py-2.5 border border-slate-200 rounded-lg text-sm focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100" />
+        </div>
+        <div className="mb-4">
+          <label className="block text-sm font-bold mb-1">ZIP code</label>
+          <input type="text" name="zip" className="w-full px-4 py-2.5 border border-slate-200 rounded-lg text-sm focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100" />
+        </div>
+        <div className="mb-4">
+          <label className="block text-sm font-bold mb-1">Prior year gross sales</label>
+          <input type="text" name="prior_year_gross_sales" className="w-full px-4 py-2.5 border border-slate-200 rounded-lg text-sm focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100" />
+        </div>
+        <div className="mb-4">
+          <label className="block text-sm font-bold mb-1">Prior year subcontractor expenses</label>
+          <input type="text" name="prior_year_subcontractor_expenses" className="w-full px-4 py-2.5 border border-slate-200 rounded-lg text-sm focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100" />
+        </div>
+        <div className="mb-4">
+          <label className="block text-sm font-bold mb-1">Prior year employee count</label>
+          <input type="number" name="prior_year_employee_count" className="w-full px-4 py-2.5 border border-slate-200 rounded-lg text-sm focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100" />
+        </div>
+        <div className="mb-4">
+          <label className="block text-sm font-bold mb-1">Prior year employee payroll</label>
+          <input type="text" name="prior_year_employee_payroll" className="w-full px-4 py-2.5 border border-slate-200 rounded-lg text-sm focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100" />
+        </div>
+        <div className="mb-4">
+          <label className="block text-sm font-bold mb-1">Estimated gross sales (next 12 months)</label>
+          <input type="text" name="estimated_gross_sales" className="w-full px-4 py-2.5 border border-slate-200 rounded-lg text-sm focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100" />
+        </div>
+        <div className="mb-4">
+          <label className="block text-sm font-bold mb-1">Estimated subcontractor expenses (next 12 months)</label>
+          <input type="text" name="estimated_subcontractor_expenses" className="w-full px-4 py-2.5 border border-slate-200 rounded-lg text-sm focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100" />
+        </div>
+        <div className="mb-4">
+          <label className="block text-sm font-bold mb-1">Estimated employee count (year total)</label>
+          <input type="number" name="estimated_employee_count" className="w-full px-4 py-2.5 border border-slate-200 rounded-lg text-sm focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100" />
+        </div>
+        <div className="mb-4">
+          <label className="block text-sm font-bold mb-1">Estimated employee annual payroll</label>
+          <input type="text" name="estimated_employee_payroll" className="w-full px-4 py-2.5 border border-slate-200 rounded-lg text-sm focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100" />
+        </div>
+        <div className="mb-4">
+          <label className="block text-sm font-bold mb-1">Estimated material costs</label>
+          <input type="text" name="estimated_material_costs" className="w-full px-4 py-2.5 border border-slate-200 rounded-lg text-sm focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100" />
+        </div>
+        <div className="mb-4">
+          <label className="block text-sm font-bold mb-1">Do your subcontractors have insurance?</label>
+          <select name="subcontractors_have_insurance" className="w-full px-4 py-2.5 border border-slate-200 rounded-lg text-sm focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100"><option value="">Select...</option><option value="Yes">Yes</option><option value="No">No</option></select>
+        </div>
+        <div className="mb-4">
+          <label className="block text-sm font-bold mb-1">What percent of your subcontractors have insurance?</label>
+          <input type="number" name="percent_subcontractors_insured" className="w-full px-4 py-2.5 border border-slate-200 rounded-lg text-sm focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100" />
+        </div>
+        <div className="mb-4">
+          <label className="block text-sm font-bold mb-1">Do you need coverage for uninsured subcontractors?</label>
+          <select name="coverage_for_uninsured_subcontractors" className="w-full px-4 py-2.5 border border-slate-200 rounded-lg text-sm focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100"><option value="">Select...</option><option value="Yes">Yes</option><option value="No">No</option></select>
+        </div>
+        <div className="mb-4">
+          <label className="block text-sm font-bold mb-1">Coverages requested (checkboxes)</label>
+          <label className="inline-flex items-center gap-2 mr-4"><input type="checkbox" name="coverage_types" value="General liability" /><span>General liability</span></label>
+          <label className="inline-flex items-center gap-2 mr-4"><input type="checkbox" name="coverage_types" value="Commercial auto" /><span>Commercial auto</span></label>
+          <label className="inline-flex items-center gap-2 mr-4"><input type="checkbox" name="coverage_types" value="Workers compensation" /><span>Workers compensation</span></label>
+          <label className="inline-flex items-center gap-2 mr-4"><input type="checkbox" name="coverage_types" value="Umbrella / excess" /><span>Umbrella / excess</span></label>
+          <label className="inline-flex items-center gap-2 mr-4"><input type="checkbox" name="coverage_types" value="Pollution liability" /><span>Pollution liability</span></label>
+          <label className="inline-flex items-center gap-2 mr-4"><input type="checkbox" name="coverage_types" value="Professional liability" /><span>Professional liability</span></label>
+        </div>
+        <div className="mb-4">
+          <label className="block text-sm font-bold mb-1">Annual gross sales</label>
+          <input type="text" name="annual_gross_sales" className="w-full px-4 py-2.5 border border-slate-200 rounded-lg text-sm focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100" />
+        </div>
+        <div className="mb-4">
+          <label className="block text-sm font-bold mb-1">Year business started</label>
+          <input type="number" name="year_business_started" className="w-full px-4 py-2.5 border border-slate-200 rounded-lg text-sm focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100" />
+        </div>
+        <div className="mb-4">
+          <label className="block text-sm font-bold mb-1">Description of business</label>
+          <textarea name="business_description" rows={3} className="w-full px-4 py-2.5 border border-slate-200 rounded-lg text-sm focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100"></textarea>
+        </div>
+        <div className="mb-4">
+          <label className="block text-sm font-bold mb-1">Class code 1 (+ % of operations)</label>
+          <input type="text" name="class_code_1" className="w-full px-4 py-2.5 border border-slate-200 rounded-lg text-sm focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100" />
+        </div>
+        <div className="mb-4">
+          <label className="block text-sm font-bold mb-1">Class code 2 (+ % of operations)</label>
+          <input type="text" name="class_code_2" className="w-full px-4 py-2.5 border border-slate-200 rounded-lg text-sm focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100" />
+        </div>
+        <div className="mb-4">
+          <label className="block text-sm font-bold mb-1">Class code 3 (+ % of operations)</label>
+          <input type="text" name="class_code_3" className="w-full px-4 py-2.5 border border-slate-200 rounded-lg text-sm focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100" />
+        </div>
+        <div className="mb-4">
+          <label className="block text-sm font-bold mb-1">Class code 4 (+ % of operations)</label>
+          <input type="text" name="class_code_4" className="w-full px-4 py-2.5 border border-slate-200 rounded-lg text-sm focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100" />
+        </div>
+        <div className="mb-4">
+          <label className="block text-sm font-bold mb-1">Class code 5 (+ % of operations)</label>
+          <input type="text" name="class_code_5" className="w-full px-4 py-2.5 border border-slate-200 rounded-lg text-sm focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100" />
+        </div>
+        <div className="mb-4">
+          <label className="block text-sm font-bold mb-1">Residential vs commercial split</label>
+          <input type="text" name="residential_vs_commercial" className="w-full px-4 py-2.5 border border-slate-200 rounded-lg text-sm focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100" />
+        </div>
+        <div className="mb-4">
+          <label className="block text-sm font-bold mb-1">New construction vs existing / remodel</label>
+          <input type="text" name="new_vs_existing_construction" className="w-full px-4 py-2.5 border border-slate-200 rounded-lg text-sm focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100" />
+        </div>
+        <div className="mb-4">
+          <label className="block text-sm font-bold mb-1">5 largest projects ever (description + dollar amount)</label>
+          <textarea name="largest_projects" rows={3} className="w-full px-4 py-2.5 border border-slate-200 rounded-lg text-sm focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100"></textarea>
+        </div>
+        <div className="mb-4">
+          <label className="block text-sm font-bold mb-1">Prior insurance carrier name</label>
+          <input type="text" name="prior_carrier_name" className="w-full px-4 py-2.5 border border-slate-200 rounded-lg text-sm focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100" />
+        </div>
+        <div className="mb-4">
+          <label className="block text-sm font-bold mb-1">Prior policy number</label>
+          <input type="text" name="prior_policy_number" className="w-full px-4 py-2.5 border border-slate-200 rounded-lg text-sm focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100" />
+        </div>
+        <div className="mb-4">
+          <label className="block text-sm font-bold mb-1">Prior policy expiration date</label>
+          <input type="date" name="prior_policy_expiration" className="w-full px-4 py-2.5 border border-slate-200 rounded-lg text-sm focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100" />
+        </div>
+        <div className="mb-4">
+          <label className="block text-sm font-bold mb-1">Phone number</label>
+          <input type="text" name="phone" className="w-full px-4 py-2.5 border border-slate-200 rounded-lg text-sm focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100" />
+        </div>
+</form>
         </div>
       </section>
     </main>
