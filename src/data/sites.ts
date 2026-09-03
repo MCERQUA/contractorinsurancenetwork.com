@@ -34,7 +34,7 @@ export const SUBTYPE_MAP: Record<string, SubtypeMeta> = Object.fromEntries(
 
 export const SITES: SiteEntry[] = [
   // Roofing
-  { domain: "roofinginsurance.com", name: "Roofing Insurance", descriptor: "Roofing Insurance — fast quotes for licensed roofing contractors", live: true, url: "https://roofinginsurance.com", quote_url: "https://roofinginsurance.com/#quote", subtype: "roofing" },
+  { domain: "roofinginsurance.com", name: "Roofing Insurance", descriptor: "Roofing Insurance — fast quotes for licensed roofing contractors", live: true, url: "https://roofinginsurance.com", quote_url: "https://roofinginsurance.com/quote", subtype: "roofing" },
   { domain: "fireproofinginsurance.com", name: "Fireproofing Insurance", descriptor: "Fireproofing Insurance — fast quotes for licensed contractors", live: true, url: "https://fireproofinginsurance.com", quote_url: "https://fireproofinginsurance.com/#quote", subtype: "roofing" },
   { domain: "stormrestorationinsurance.com", name: "Storm Restoration Insurance", descriptor: "Storm Restoration Insurance — fast quotes for licensed contractors", live: true, url: "https://stormrestorationinsurance.com", quote_url: "https://stormrestorationinsurance.com/#quote", subtype: "roofing" },
   { domain: "dampproofinginsurance.com", name: "Dampproofing Insurance", descriptor: "Dampproofing Insurance — fast quotes for licensed contractors", live: false, url: "https://dampproofinginsurance.com", quote_url: null, subtype: "roofing" },
