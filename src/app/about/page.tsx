@@ -64,7 +64,7 @@ export default function AboutPage() {
             <ul className="text-slate-600 space-y-1 not-prose list-none">
               <li><strong>Phone:</strong> <a href="tel:+18449675247" className="text-blue-600 hover:underline">844-967-5247</a></li>
               <li><strong>Email:</strong> <a href="mailto:josh@contractorschoiceagency.com" className="text-blue-600 hover:underline">josh@contractorschoiceagency.com</a></li>
-              <li><strong>Address:</strong> 12220 E Riggs Road, Suite #105, Chandler, AZ 85249</li>
+              <li><strong>Address:</strong> 12220 E Riggs Road, Suite #104, Chandler, AZ 85249</li>
               <li><strong>NPN:</strong> #8608479</li>
               <li><strong>Founded:</strong> 2005</li>
             </ul>

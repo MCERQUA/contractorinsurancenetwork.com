@@ -56,7 +56,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <p className="text-white font-semibold mb-2">Contact</p>
                 <p>844-967-5247</p>
                 <p>josh@contractorschoiceagency.com</p>
-                <p>12220 E Riggs Road, Suite #105<br />Chandler, AZ 85249</p>
+                <p>12220 E Riggs Road, Suite #104<br />Chandler, AZ 85249</p>
               </div>
               <div>
                 <p className="text-white font-semibold mb-2">Contractor Niches</p>
