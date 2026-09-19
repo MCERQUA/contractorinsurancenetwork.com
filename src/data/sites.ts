@@ -103,7 +103,7 @@ export const SITES: SiteEntry[] = [
   { domain: "papercontractorsinsurance.com", name: "Paper Contractors Insurance", descriptor: "Paper Contractors Insurance — fast quotes for licensed contractors", live: false, url: "https://papercontractorsinsurance.com", quote_url: null, subtype: "industrial" },
 
   // General Contractor
-  { domain: "buycontractorinsurance.com", name: "Buy Contractor Insurance", descriptor: "Buy Contractor Insurance — fast quotes for licensed contractors", live: true, url: "https://buycontractorinsurance.com", quote_url: "https://buycontractorinsurance.com/#quote", subtype: "general" },
+  { domain: "buycontractorinsurance.com", name: "Buy Contractor Insurance", descriptor: "Buy Contractor Insurance — fast quotes for licensed contractors", live: true, url: "https://buycontractorinsurance.com", quote_url: "https://buycontractorinsurance.com/quote", subtype: "general" },
   { domain: "contractorinsurance.io", name: "Contractor Insurance", descriptor: "Contractor Insurance — fast quotes for licensed contractors", live: false, url: "https://contractorinsurance.io", quote_url: null, subtype: "general" },
   { domain: "contractorinsurance.ninja", name: "Contractor Insurance Ninja", descriptor: "Contractor Insurance Ninja — fast quotes for licensed contractors", live: false, url: "https://contractorinsurance.ninja", quote_url: null, subtype: "general" },
   { domain: "contractorinsurancediva.com", name: "Contractor Insurance Diva", descriptor: "Contractor Insurance Diva — fast quotes for licensed contractors", live: false, url: "https://contractorinsurancediva.com", quote_url: null, subtype: "general" },
