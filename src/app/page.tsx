@@ -250,10 +250,6 @@ export default function HomePage() {
           <input type="text" name="prior_carrier_name" className="w-full px-4 py-2.5 border border-slate-200 rounded-lg text-sm focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100" />
         </div>
         <div className="mb-4">
-          <label className="block text-sm font-bold mb-1">Prior policy number</label>
-          <input type="text" name="prior_policy_number" className="w-full px-4 py-2.5 border border-slate-200 rounded-lg text-sm focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100" />
-        </div>
-        <div className="mb-4">
           <label className="block text-sm font-bold mb-1">Prior policy expiration date</label>
           <input type="date" name="prior_policy_expiration" className="w-full px-4 py-2.5 border border-slate-200 rounded-lg text-sm focus:outline-none focus:border-blue-400 focus:ring-2 focus:ring-blue-100" />
         </div>
